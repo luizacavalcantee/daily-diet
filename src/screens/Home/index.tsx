@@ -8,7 +8,11 @@ export default function Home() {
         <View style={styles.container}>
             <View style={styles.textBox}>
                 <Text style={styles.mainText}>Continue assim!</Text>
-                <Text style={styles.text}>Você continua dentro da dieta. Muito bem!</Text>
+                <Text style={styles.text}>
+                    <Text style={styles.firstText}>Você continua </Text>
+                    <Text style={styles.secondText}>dentro da dieta</Text>
+                    <Text style={styles.thirdText}>. Muito bem!</Text>
+                </Text>
             </View>
             <Image style={styles.image} source={require('../../../assets/woman.png')} />
             <TouchableOpacity style={styles.button}>

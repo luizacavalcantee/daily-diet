@@ -17,6 +17,23 @@ export const styles = StyleSheet.create({
         fontFamily: 'Nunito Sans',
     },
     text: {
+        flexDirection: 'row'
+    },
+    firstText: {
+        textAlign: 'center',
+        color: '#1B1D1E',
+        fontSize: 16,
+        fontWeight: '400',
+        fontFamily: 'Nunito Sans',
+    },
+    secondText: {
+        textAlign: 'center',
+        color: '#1B1D1E',
+        fontSize: 16,
+        fontWeight: '700',
+        fontFamily: 'Nunito Sans',
+    },
+    thirdText: {
         textAlign: 'center',
         color: '#1B1D1E',
         fontSize: 16,
